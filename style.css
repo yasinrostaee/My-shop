@@ -1,4 +1,4 @@
-```css
+
 /* =========================
    تنظیمات عمومی
 ========================= */
@@ -56,7 +56,6 @@ img {
 .section {
     padding: 85px 0;
 }
-
 
 /* =========================
    هدر و منو
@@ -151,7 +150,6 @@ img {
     color: var(--primary);
     font-weight: 700;
 }
-
 
 /* =========================
    بنر اصلی
@@ -281,7 +279,6 @@ img {
     font-size: 12px;
 }
 
-
 /* =========================
    عنوان بخش‌ها
 ========================= */
@@ -317,7 +314,6 @@ img {
     font-weight: 600;
     white-space: nowrap;
 }
-
 
 /* =========================
    دسته‌بندی‌ها
@@ -369,7 +365,6 @@ img {
     color: var(--text);
     font-size: 12px;
 }
-
 
 /* =========================
    محصولات
@@ -492,7 +487,6 @@ img {
     color: white;
 }
 
-
 /* =========================
    بنر تخفیف
 ========================= */
@@ -550,7 +544,6 @@ img {
     opacity: 0.95;
 }
 
-
 /* =========================
    ویژگی‌های فروشگاه
 ========================= */
@@ -594,6 +587,195 @@ img {
     color: var(--text);
 }
 
+/* =========================
+   جزوه آموزشی
+========================= */
+
+.about-me {
+    background: #faf9ff;
+    padding: 85px 0;
+}
+
+.notes-intro {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 45px;
+}
+
+.about-label {
+    display: inline-block;
+    color: var(--primary);
+    background: #f0edff;
+    padding: 7px 18px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.notes-intro h2 {
+    font-size: 30px;
+    margin: 15px 0 10px;
+    font-weight: 800;
+}
+
+.notes-intro p {
+    color: var(--text);
+    font-size: 14px;
+    line-height: 2.2;
+}
+
+.note-page {
+    background: white;
+    max-width: 900px;
+    margin: 0 auto 35px;
+    padding: 55px 60px;
+    border-radius: 18px;
+    border: 1px solid #eeeafa;
+    box-shadow: var(--shadow);
+    position: relative;
+}
+
+.note-page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f0edff;
+}
+
+.note-page-header span {
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.note-page-header small {
+    color: #999;
+    font-size: 12px;
+}
+
+.note-main-title {
+    font-size: 25px;
+    color: var(--dark);
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.note-page h3 {
+    font-size: 19px;
+    color: var(--primary-dark);
+    margin: 28px 0 10px;
+}
+
+.note-page p {
+    color: #626274;
+    font-size: 14px;
+    line-height: 2.5;
+    margin-bottom: 13px;
+    text-align: justify;
+}
+
+.note-page ul {
+    padding-right: 25px;
+    margin: 12px 0 20px;
+}
+
+.note-page li {
+    color: #626274;
+    font-size: 14px;
+    line-height: 2.4;
+    margin-bottom: 5px;
+}
+
+.note-tip {
+    background: #f5f2ff;
+    border-right: 4px solid var(--primary);
+    border-radius: 10px;
+    padding: 17px 20px;
+    margin: 22px 0;
+    color: #51428c;
+    font-size: 13px;
+    line-height: 2.3;
+}
+
+.note-page code {
+    direction: ltr;
+    unicode-bidi: embed;
+    display: inline-block;
+    background: #f1eff9;
+    color: #7048ce;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+}
+
+.code-example {
+    direction: ltr;
+    text-align: left;
+    background: #242238;
+    color: #eeeaff;
+    padding: 18px 22px;
+    border-radius: 12px;
+    margin: 15px 0 22px;
+    overflow-x: auto;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.code-example code {
+    display: block;
+    background: transparent;
+    color: #eeeaff;
+    padding: 0;
+    white-space: pre-wrap;
+    font-size: 13px;
+}
+
+.note-list {
+    padding-right: 24px;
+}
+
+.host-item {
+    background: #faf9ff;
+    border: 1px solid #f0edff;
+    padding: 15px 18px;
+    border-radius: 12px;
+    margin: 12px 0;
+}
+
+.host-item h4 {
+    color: var(--primary-dark);
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.host-item p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.note-page a {
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.note-page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border-top: 1px solid #eeeafa;
+    padding-top: 18px;
+    margin-top: 35px;
+    color: #999;
+    font-size: 12px;
+}
 
 /* =========================
    فوتر
@@ -658,7 +840,6 @@ img {
     font-size: 12px;
 }
 
-
 /* =========================
    واکنش‌گرایی: تبلت
 ========================= */
@@ -703,8 +884,10 @@ img {
         row-gap: 30px;
     }
 
+    .note-page {
+        padding: 40px;
+    }
 }
-
 
 /* =========================
    واکنش‌گرایی: موبایل
@@ -892,6 +1075,74 @@ img {
         font-size: 10px;
     }
 
+    /* جزوه آموزشی در موبایل */
+
+    .about-me {
+        padding: 55px 0;
+    }
+
+    .notes-intro {
+        margin-bottom: 30px;
+    }
+
+    .notes-intro h2 {
+        font-size: 23px;
+    }
+
+    .notes-intro p {
+        font-size: 12px;
+    }
+
+    .note-page {
+        padding: 25px 20px;
+        margin-bottom: 22px;
+        border-radius: 14px;
+    }
+
+    .note-page-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+
+    .note-main-title {
+        font-size: 21px;
+    }
+
+    .note-page h3 {
+        font-size: 17px;
+        margin-top: 22px;
+    }
+
+    .note-page p,
+    .note-page li {
+        font-size: 12px;
+        line-height: 2.3;
+    }
+
+    .note-tip {
+        padding: 13px;
+        font-size: 12px;
+    }
+
+    .code-example {
+        padding: 13px;
+        font-size: 11px;
+    }
+
+    .code-example code {
+        font-size: 11px;
+    }
+
+    .host-item {
+        padding: 12px;
+    }
+
+    .note-page-footer {
+        font-size: 10px;
+    }
+
     .footer-grid {
         grid-template-columns: 1fr 1fr;
         gap: 30px 20px;
@@ -914,9 +1165,7 @@ img {
     .footer-bottom {
         font-size: 10px;
     }
-
 }
-
 
 /* =========================
    موبایل‌های کوچک
@@ -940,5 +1189,11 @@ img {
         display: none;
     }
 
+    .note-page {
+        padding: 20px 15px;
+    }
+
+    .note-main-title {
+        font-size: 19px;
+    }
 }
-```
